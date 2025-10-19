@@ -4,11 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="public/styles/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <title>Sign-Up</title>
 </head>
 
 <body>
+    <div class="image-sidebar">
+        <div class="image">
+            <img src="/public/images/odin-lined.png" width="80px" height="100px" />
+            <p style="margin: 0;">Si</p>
+        </div>
+        <cite>Photo by Squids Z on Unsplash</cite>
+    </div>
+    <div class="form-bkg">
+        <p>This is a real online service. You know this is something you need.</p>
+        <p>Sign up now to get started.</p>
+        <p>You know you want to...</p>
 
+        <!-- form -->
+        <form action="" method="post">
+            <div class="format">
+                <div>
+                    <!-- firstname -->
+                    <label for="first_name">FIRST NAME</label>
+                    <input id="first_name" name="first_name type=" text" />
+
+                    <!-- email -->
+                    <label for="user_email">EMAIL</label>
+                    <input id="user_email" name="email" type="text" />
+
+                    <!-- password -->
+                    <label for="user_password">PASSWORD</label>
+                    <input id="user_password" name="password" type="password" />
+                </div>
+
+                <div>
+                    <!-- lastname -->
+                    <label for="lastname">LAST NAME</label>
+                    <input id="last_name" name="last_name" type="text" />
+
+                    <!-- number -->
+                    <label for="phone">PHONE NUMBER</label>
+                    <input id="phone" name="phone" type="number" />
+
+                    <!-- confirm password -->
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input id="confirm_password" name="confirm_password" type="password" />
+                </div>
+            </div>
+
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
 </body>
 
 </html>
