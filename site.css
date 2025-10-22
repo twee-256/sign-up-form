@@ -1,5 +1,5 @@
 body {
-    background-image: url("/images/stairs-bkg.jpg");
+    background-image: url("images/stairs-bkg.jpg");
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -35,7 +35,7 @@ label {
 }
 
 .image {
-    font-family: 'PixelifySan', monospace, 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-family: 'PixelifySans', monospace, 'Gill Sans', 'Gill Sans MT', Calibri;
     font-size: 3.5em;
     color: white;
     background-color: rgba(18, 16, 16, 0.658);
