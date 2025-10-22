@@ -1,5 +1,5 @@
 body {
-    background-image: url("/public/images/stairs-bkg.jpg");
+    background-image: url("/images/stairs-bkg.jpg");
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,7 @@ body {
 
 @font-face {
     font-family: 'PixelifySans';
-    src: url('/public/fonts/PixelifySans-VariableFont_wght.ttf');
+    src: url('/fonts/PixelifySans-VariableFont_wght.ttf');
     font-weight: 100 1000;
     font-style: normal;
 }
